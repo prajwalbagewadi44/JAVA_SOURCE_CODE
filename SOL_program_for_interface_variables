@@ -1,7 +1,7 @@
 import java.lang.*;
 import java.util.*;
 
-// program_for_interface_variables 
+// corrected program_for_interface_variables 
 
 interface Customerabhi
 {
