@@ -5,7 +5,7 @@ import java.util.*;
 
 interface Customerabhi
 {
-    int amt=5;// acess specifier public+static+final
+    int amt=5;// access specifier public+static+final
     void purchase();//public + abstract
     // abstract means incomplete method
 }
