@@ -1,0 +1,27 @@
+import java.lang.*;
+import java.util.*;
+
+// program for interface variables 
+
+interface Customerabhi
+{
+    int amt;// acess specifier public+static+final
+    void purchase();//public + abstract
+    // abstract means incomplete method
+}
+class Seller
+{
+    @Override
+    public void purchase()
+    {
+        System.out.println("abhi needs"+amt+"Kg rice");
+    }
+}
+class check
+{
+    public static void main(String[]args)
+    {
+        Customerabhi c=new Seller();
+        c.purchase();
+    }
+}
