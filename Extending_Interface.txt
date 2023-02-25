@@ -1,0 +1,45 @@
+import java.lang.*;
+import java.util.*;
+interface Gill
+{
+   public abstract void add();
+}
+interface Raj extends Gill
+{
+    public abstract void sub();
+}
+class Ankit implements Raj
+{
+    Scanner sc=new Scanner(System.in);
+    
+    @Override
+    public void add()
+    {
+        int a,b;
+        System.out.println("enter the num1:");
+        a=sc.nextInt();
+        System.out.println("enter the num2:");
+        b=sc.nextInt();
+        System.out.println("add ans="+(a+b));
+    }
+    
+    @Override
+    public void sub()
+    {
+        int a,b;
+        System.out.println("enter the num1:");
+        a=sc.nextInt();
+        System.out.println("enter the num2:");
+        b=sc.nextInt();
+        System.out.println("sub ans="+(a-b));
+    }
+}
+class Main
+{
+	public static void main(String[]args)
+	{
+		Raj obj = new Ankit();
+		obj.add();
+		obj.sub();
+	}
+}
