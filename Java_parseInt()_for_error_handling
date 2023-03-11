@@ -1,0 +1,12 @@
+import java.lang.*;
+import java.util.*;
+
+class Main
+{
+    public static void main(String[]args)
+    {
+        String num="234";
+        int a=Integer.parseInt(num);
+        System.out.println("prase="+a);
+    }
+}
